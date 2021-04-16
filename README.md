@@ -1,5 +1,5 @@
 # IA-PC1-GRUPO11
 
-## Equipo de Trabajo
+## Integrantes
 
 - Guevara Tanta Junior Ulises

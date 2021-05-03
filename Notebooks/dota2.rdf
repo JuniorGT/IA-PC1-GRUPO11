@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dota2.fandom.com/intelligence> rdfs:subClassOf <https://dota2.fandom.com/attributes> .
+
+<https://dota2.fandom.com/wiki/Abaddon> a <https://dota2.fandom.com/strength> ;
+    <characteristic:abilities> <https://dota2.fandom.com/wiki/Abilities#Active>,
+        <https://dota2.fandom.com/wiki/Abilities#Passive> ;
+    <characteristic:agi> 23 ;
+    <characteristic:int> 18 ;
+    <characteristic:name> "Abaddon" ;
+    <characteristic:srt> 23 .
+
+<https://dota2.fandom.com/wiki/Abilities#No_Target> rdfs:subClassOf <https://dota2.fandom.com/wiki/Abilities#Active> .
+
+<https://dota2.fandom.com/wiki/Abilities#Target_Area> rdfs:subClassOf <https://dota2.fandom.com/wiki/Abilities#Active> .
+
+<https://dota2.fandom.com/wiki/Abilities#Target_Point> rdfs:subClassOf <https://dota2.fandom.com/wiki/Abilities#Active> .
+
+<https://dota2.fandom.com/wiki/Abilities#Target_Point_or_Unit> rdfs:subClassOf <https://dota2.fandom.com/wiki/Abilities#Active> .
+
+<https://dota2.fandom.com/wiki/Abilities#Target_Unit> rdfs:subClassOf <https://dota2.fandom.com/wiki/Abilities#Active> .
+
+<https://dota2.fandom.com/wiki/Abilities#Toggle> <characteristic:name> "Toggle" ;
+    rdfs:subClassOf <https://dota2.fandom.com/wiki/Abilities#Active> .
+
+<https://dota2.fandom.com/wiki/Ancient_Apparition> a <https://dota2.fandom.com/agility> ;
+    <characteristic:abilities> <https://dota2.fandom.com/wiki/Abilities#Active>,
+        <https://dota2.fandom.com/wiki/Abilities#Autocast> ;
+    <characteristic:agi> 20 ;
+    <characteristic:int> 23 ;
+    <characteristic:name> "Ancient Apparition" ;
+    <characteristic:srt> 20 .
+
+<https://dota2.fandom.com/wiki/Arc_Warden> a <https://dota2.fandom.com/agility> ;
+    <characteristic:abilities> <https://dota2.fandom.com/wiki/Abilities#Active> ;
+    <characteristic:agi> 16 ;
+    <characteristic:int> 24 ;
+    <characteristic:name> "Arc Warden" ;
+    <characteristic:srt> 23 .
+
+<https://dota2.fandom.com/strength> rdfs:subClassOf <https://dota2.fandom.com/attributes> .
+
+<https://dota2.fandom.com/wiki/Abilities#Autocast> rdfs:subClassOf <https://dota2.fandom.com/abilities> .
+
+<https://dota2.fandom.com/wiki/Abilities#Passive> rdfs:subClassOf <https://dota2.fandom.com/abilities> .
+
+<https://dota2.fandom.com/agility> rdfs:subClassOf <https://dota2.fandom.com/attributes> .
+
+<https://dota2.fandom.com/abilities> <characteristic:name> "Abilities" .
+
+<https://dota2.fandom.com/wiki/Abilities#Active> <characteristic:name> "Active" ;
+    rdfs:subClassOf <https://dota2.fandom.com/abilities> .
+

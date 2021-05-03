@@ -6,78 +6,94 @@
 >
   <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Ancient_Apparition">
     <ns1:name>Ancient Apparition</ns1:name>
-    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
     <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
-    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
     <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
     <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:agi>
     <rdf:type rdf:resource="https://dota2.fandom.com/agility"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/aura">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Active">
-    <ns1:name>Active</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abaddon">
-    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
     <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
-    <ns1:name>Abaddon</ns1:name>
-    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
-    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
-    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point_or_Unit">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Target point or unit</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/intelligence">
+    <ns1:name>Intelligence</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/agility">
+    <ns1:name>Agility</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Unit">
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Negative_Aura_Sources">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/intelligence">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+    <ns1:name>Target Unit</ns1:name>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Toggle">
     <ns1:name>Toggle</ns1:name>
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Autocast">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Negative_Aura_Sources">
+    <ns1:name>Negative aura</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Arc_Warden">
-    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
-    <ns1:name>Arc Warden</ns1:name>
-    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
-    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
-    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-    <rdf:type rdf:resource="https://dota2.fandom.com/agility"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/aura">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:name>Aura</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Active">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+    <ns1:name>Active</ns1:name>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/abilities">
     <ns1:name>Abilities</ns1:name>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point_or_Unit">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Autocast">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+    <ns1:name>Autocast</ns1:name>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/strength">
+    <ns1:name>Strength</ns1:name>
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Positive_Aura_Sources">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#No_Target">
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point">
+    <ns1:name>Target Point</ns1:name>
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/agility">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Positive_Aura_Sources">
+    <ns1:name>Positive aura</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Arc_Warden">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/agility"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
+    <ns1:name>Arc Warden</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Passive">
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+    <ns1:name>Passive</ns1:name>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Area">
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Target Area</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#No_Target">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>No target</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/attributes">
+    <ns1:name>Attributes</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abaddon">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Abaddon</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
   </rdf:Description>
 </rdf:RDF>

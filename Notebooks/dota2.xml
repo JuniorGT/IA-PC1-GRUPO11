@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dota2.fandom.com/characteristic/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://dota2.fandom.com/strength">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+    <ns1:name>Strength</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/aura">
+    <ns1:name>Aura</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Category:Ranged_heroes">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/Attack_range"/>
+    <ns1:name>Ranged Heroes</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Positive_Aura_Sources">
+    <ns1:name>Positive aura</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Ancient_Apparition">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Ancient Apparition</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Category:Melee_heroes">
+    <ns1:name>Melee Heroes</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/Attack_range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abaddon">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:name>Abaddon</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Unit">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Target Unit</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/intelligence">
+    <ns1:name>Intelligence</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#No_Target">
+    <ns1:name>No target</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/agility">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+    <ns1:name>Agility</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Vector_Targeting">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Vector Targeting</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Target_Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Area">
+    <ns1:name>Target Area</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Target_Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Negative_Aura_Sources">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
+    <ns1:name>Negative aura</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Passive">
+    <ns1:name>Passive</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Toggle">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#No_Target"/>
+    <ns1:name>Toggle</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Arc_Warden">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
+    <ns1:name>Arc Warden</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/agility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Active">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+    <ns1:name>Active</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Autocast">
+    <ns1:name>Autocast</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point_or_Unit">
+    <ns1:name>Target point or unit</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/Attack_range">
+    <ns1:name>Attack range</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point">
+    <ns1:name>Target Point</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/characteristic/name">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/abilities">
+    <ns1:name>Abilities</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/attributes">
+    <ns1:name>Attributes</ns1:name>
+  </rdf:Description>
+</rdf:RDF>

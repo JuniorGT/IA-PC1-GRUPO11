@@ -4,120 +4,880 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="https://dota2.fandom.com/strength">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
-    <ns1:name>Strength</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/aura">
-    <ns1:name>Aura</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Category:Ranged_heroes">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/Attack_range"/>
-    <ns1:name>Ranged Heroes</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Positive_Aura_Sources">
-    <ns1:name>Positive aura</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Ancient_Apparition">
-    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
-    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Lifestealer">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:name>Lifestealer</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
     <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Snapfire">
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
     <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
-    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:agi>
-    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:name>Snapfire</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Jakiro">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ns1:srt>
     <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
-    <ns1:name>Ancient Apparition</ns1:name>
+    <ns1:name>Jakiro</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Category:Melee_heroes">
-    <ns1:name>Melee Heroes</ns1:name>
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/Attack_range"/>
+    <ns1:name>Melee Heroes</ns1:name>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abaddon">
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Keeper_of_the_Light">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Keeper of the Light</ns1:name>
     <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Bristleback">
     <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
-    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
-    <ns1:name>Abaddon</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
     <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
-    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <ns1:name>Bristleback</ns1:name>
     <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Unit">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-    <ns1:name>Target Unit</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/intelligence">
-    <ns1:name>Intelligence</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#No_Target">
-    <ns1:name>No target</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/agility">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
-    <ns1:name>Agility</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Vector_Targeting">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-    <ns1:name>Vector Targeting</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Target_Point"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Area">
-    <ns1:name>Target Area</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Target_Point"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Negative_Aura_Sources">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
-    <ns1:name>Negative aura</ns1:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Passive">
-    <ns1:name>Passive</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Toggle">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#No_Target"/>
-    <ns1:name>Toggle</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Arc_Warden">
-    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
-    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
-    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Wraith_King">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
     <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
-    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
-    <ns1:name>Arc Warden</ns1:name>
-    <rdf:type rdf:resource="https://dota2.fandom.com/agility"/>
+    <ns1:name>Wraith King</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Active">
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
-    <ns1:name>Active</ns1:name>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Shadow_Demon">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Shadow Demon</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Autocast">
-    <ns1:name>Autocast</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Axe">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Axe</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point_or_Unit">
-    <ns1:name>Target point or unit</ns1:name>
-    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Dragon_Knight">
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:name>Dragon Knight</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/Attack_range">
-    <ns1:name>Attack range</ns1:name>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Alchemist">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:name>Alchemist</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Ogre_Magi">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <ns1:name>Ogre Magi</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Phoenix">
+    <ns1:name>Phoenix</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:int>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point">
     <ns1:name>Target Point</ns1:name>
     <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/characteristic/name">
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Witch_Doctor">
+    <ns1:name>Witch Doctor</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:int>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dota2.fandom.com/abilities">
-    <ns1:name>Abilities</ns1:name>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Tiny">
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns1:srt>
+    <ns1:name>Tiny</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Storm_Spirit">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:name>Storm Spirit</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Tinker">
+    <ns1:name>Tinker</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Enchantress">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:int>
+    <ns1:name>Enchantress</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Crystal_Maiden">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:name>Crystal Maiden</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Winter_Wyvern">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Winter Wyvern</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Treant_Protector">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Treant Protector</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Positive_Aura_Sources">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
+    <ns1:name>Positive aura</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Beastmaster">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Beastmaster</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Earth_Spirit">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Earth Spirit</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Legion_Commander">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Legion Commander</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Slardar">
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+    <ns1:name>Slardar</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Pugna">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:srt>
+    <ns1:name>Puck</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Queen_of_Pain">
+    <ns1:name>Queen of Pain</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Dark_Willow">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:int>
+    <ns1:name>Dark Willow</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/agility">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+    <ns1:name>Agility</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Clockwerk">
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:name>Clockwerk</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Invoker">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Invoker</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Aura#Negative_Aura_Sources">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/aura"/>
+    <ns1:name>Negative aura</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Chaos_Knight">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:name>Chaos Knight</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Sand_King">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:name>Sand King</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Dark_Seer">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:name>Dark Seer</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Brewmaster">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:name>Brewmaster</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Underlord">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns1:agi>
+    <ns1:name>Underlord</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Arc_Warden">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:name>Arc Warden</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/agility"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Lina">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns1:int>
+    <ns1:name>Lina</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Night_Stalker">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+    <ns1:name>Night Stalker</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Doom">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:name>Doom</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Warlock">
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns1:agi>
+    <ns1:name>Warlock</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:srt>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Toggle">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#No_Target"/>
+    <ns1:name>Toggle</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Tidehunter">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ns1:srt>
+    <ns1:name>Tidehunter</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Enigma">
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Enigma</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Death_Prophet">
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
+    <ns1:name>Death Prophet</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Category:Ranged_heroes">
+    <ns1:name>Ranged Heroes</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/Attack_range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Bane">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:int>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <ns1:name>Bane</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Ancient_Apparition">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/agility"/>
+    <ns1:name>Ancient Apparition</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Timbersaw">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:name>Timbersaw</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Necrophos">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:name>Necrophos</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:int>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Visage">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <ns1:name>Visage</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Nature%27s_Prophet">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:agi>
+    <ns1:name>Nature's Prophet</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Outworld_Destroyer">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Outworld Destroyer</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Lycan">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:srt>
+    <ns1:name>Lycan</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Puck">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:name>Puck</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Omniknight">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Omniknight</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Huskar">
+    <ns1:name>Huskar</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Sven">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:int>
+    <ns1:name>Sven</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Lich">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:name>Lich</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Pudge">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:name>Pudge</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Elder_Titan">
+    <ns1:name>Elder Titan</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Dawnbreaker">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:name>Dawnbreaker</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abaddon">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:name>Abaddon</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Autocast">
+    <ns1:name>Autocast</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Chen">
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Chen</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#No_Target">
+    <ns1:name>No target</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Leshrac">
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Leshrac</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Silencer">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Silencer</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://dota2.fandom.com/attributes">
     <ns1:name>Attributes</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Void_Spirit">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:agi>
+    <ns1:name>Void Spirit</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Oracle">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Oracle</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Centaur_Warrunner">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:name>Centaur Warrunner</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Shadow_Shaman">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <ns1:name>Shadow Shaman</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Techies">
+    <ns1:name>Techies</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:srt>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Zeus">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Zeus</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Lion">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Lion</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Magnus">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Magnus</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Point_or_Unit">
+    <ns1:name>Target point or unit</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/intelligence">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+    <ns1:name>Intelligence</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Io">
+    <ns1:name>Io</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/characteristic/name">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Batrider">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns1:srt>
+    <ns1:name>Batrider</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:int>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Spirit_Breaker">
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Spirit Breaker</ns1:name>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Grimstroke">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:name>Grimstroke</ns1:name>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Earthshaker">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns1:int>
+    <ns1:name>Earthshaker</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Tusk">
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+    <ns1:name>Tusk</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Mars">
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:name>Mars</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Area">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Target Area</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Target_Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Rubick">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:agi>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:int>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:name>Rubick</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Undying">
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns1:srt>
+    <ns1:name>Undying</ns1:name>
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ns1:int>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns1:agi>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/aura">
+    <ns1:name>Aura</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Passive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Kunkka">
+    <rdf:type rdf:resource="https://dota2.fandom.com/strength"/>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:srt>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Melee_heroes"/>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:name>Kunkka</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Autocast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Target_Unit">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <ns1:name>Target Unit</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/strength">
+    <ns1:name>Strength</ns1:name>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/attributes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Disruptor">
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:int>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <ns1:name>Disruptor</ns1:name>
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:agi>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:srt>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Windranger">
+    <ns1:agi rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:agi>
+    <ns1:int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:int>
+    <ns1:name>Wind Ranger</ns1:name>
+    <ns1:abilities rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/intelligence"/>
+    <rdf:type rdf:resource="https://dota2.fandom.com/wiki/Category:Ranged_heroes"/>
+    <ns1:srt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:srt>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Active">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+    <ns1:name>Active</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Passive">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/abilities"/>
+    <ns1:name>Passive</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/Attack_range">
+    <ns1:name>Attack range</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/wiki/Abilities#Vector_Targeting">
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Active"/>
+    <rdfs:subClassOf rdf:resource="https://dota2.fandom.com/wiki/Abilities#Target_Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dota2.fandom.com/abilities">
+    <ns1:name>Abilities</ns1:name>
   </rdf:Description>
 </rdf:RDF>
